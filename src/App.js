@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import UseStateHook from './Components/UseStateHook';
+import AddingHooks from './Components/AddingHooks';
+import ObjectHooks from './Components/ObjectHooks';
+import EffectHooks from './Components/EffectHooks';
+import FetchingUseEfferct from './Components/FetchingUseEfferct';
+import Reducer from './Reducer';
+import FetchingWithReducer from './Components/FetchingWithReducer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <UseStateHook /> */}
+      {/* <AddingHooks /> */}
+      {/* <ObjectHooks /> */}
+      {/* <EffectHooks /> */}
+      {/* <FetchingUseEfferct /> */}
+      {/* <Reducer /> */}
+      <FetchingWithReducer />
     </div>
   );
 }
